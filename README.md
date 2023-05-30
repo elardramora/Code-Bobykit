@@ -1,3 +1,5 @@
+!(GRAPHICS/rec3.bmp)
+
 # Code Bobykit
 *Code ISS du **Bobykit de survie Yuzu** spécial Totk.
 
