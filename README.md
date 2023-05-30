@@ -1,4 +1,4 @@
-# Code Bobykit
+# Code Bobykit v1.93.112.3622
 *Code ISS du **Bobykit de survie Yuzu** spécial Totk.*
 ![Bobykit](/rec5.jpg)
 
@@ -8,7 +8,7 @@ Le crédit pour la mise à dispo revient à **HolographicWings**, et Les crédit
 Les noms des dossiers, ainsi que chaque crédits en .txt ont été renommés/supprimés pour pallier à un bug lors de l'installation du bobykit (chaine de caractère trop longue)
 
 ## Version
-Version du Bobyinstalleur **v1.93.112.3621
+Version du Bobyinstalleur **v1.93.112.3622**
  
  ***V1*** = première version
  
