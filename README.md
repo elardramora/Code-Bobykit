@@ -23,6 +23,8 @@ Version du Bobyinstalleur **v1.93.112.3622**
  
 - [x] Passer un temps incalculable à tester et coder, mais ne pas faire de vidéo ni jouer...
 - [x] Vérifier la compatibilité de tous les mods
+- [ ] Afficher l'icone du bobykit sur l'installeur (au lieu de celui par défaut d'Inno setup)
+- [ ] Afficher la version du bobykit sur lors de l'installation
 - [ ] Créer une option de lancement du bobykit en fin d'installation
 - [ ] Vérifier que les bobykit antérieur ne puisse pas s'installer (via le tag de la version du script)
 - [ ] Vérifier que le driver auto proswitch est activé *(que se passe-t-il s'il l'est alors qu'on est en Xinput classique?) 
