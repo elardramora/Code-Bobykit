@@ -1,6 +1,6 @@
 [Setup]
 AppName=Bobykit de survie YUZU
-AppVersion=1.93.112.3622
+AppVersion=1.94.112.3622
 DefaultDirName={localappdata}\Bobykit YUZU
 SourceDir=S:\SANDBOX\Github\Code-Bobykit\
 DiskSpanning=yes
