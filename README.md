@@ -19,7 +19,7 @@ Version du Bobyinstalleur **v1.93.112.3622**
  ***3621*** = la version de l'EA présente dans le pack
  
  ## Tâches à réaliser
- *Dans ce Bobykit ou dans une autre update  
+ *Dans ce Bobykit ou dans une autre update*  
  
 - [x] Passer un temps incalculable à tester et coder, mais ne pas faire de vidéo ni jouer...
 - [x] Vérifier la compatibilité de tous les mods
