@@ -1,7 +1,6 @@
-![Bobykit](/rec5.jpg)
-
 # Code Bobykit
-*Code ISS du **Bobykit de survie Yuzu** spécial Totk.
+*Code ISS du **Bobykit de survie Yuzu** spécial Totk.*
+![Bobykit](/rec5.jpg)
 
 ## Crédits
 Tous les mods présents dans le Bobykit sont issus de: https://github.com/HolographicWings/TOTK-Mods-collection  
