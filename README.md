@@ -22,7 +22,7 @@ Version du Bobyinstalleur **v1.93.112.3622**
  *Dans ce Bobykit ou dans une autre update  
  
 - [x] Passer un temps incalculable à tester et coder, mais ne pas faire de vidéo ni jouer...
-- [ ] Vérifier la compatibilité de tous les mods
+- [x] Vérifier la compatibilité de tous les mods
 - [ ] Vérifier que le driver auto proswitch est activé *(que se passe-t-il s'il l'est alors qu'on est en Xinput classique?) 
 - [ ] Intégrer les presets pour l'usage **clavier/souris
 - [ ] Intégrer les mods pour les ratio extra wide
