@@ -1,12 +1,12 @@
 [Setup]
-AppName=Bobykit de survie YUZU
-AppVersion=1.94.112.3622
+AppName=Bobykit de survie YUZU (by CÃ©lia)
+AppVersion=1.95.112.3622
 DefaultDirName={localappdata}\Bobykit YUZU
-SourceDir=S:\SANDBOX\Github\Code-Bobykit\
+SourceDir=C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\
 DiskSpanning=yes
 DisableProgramGroupPage=yes
-WizardImageFile=S:\SANDBOX\Github\Code-Bobykit\GRAPHICS\rec4.bmp
-WizardSmallImageFile=S:\SANDBOX\Github\Code-Bobykit\GRAPHICS\rec3.bmp
+WizardImageFile=C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\GRAPHICS\rec4.bmp
+WizardSmallImageFile=C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\GRAPHICS\rec3.bmp
 OutputBaseFilename=Bobykit de survie YUZU
 DisableWelcomePage=no
 
@@ -23,74 +23,74 @@ Name: "Framerate/60fps"; Description: "60fps dynamique"; Types: custom; Flags: e
 //CONF//
 Name: "TonPC"; Description: "Choisis le type de PC que tu as (n'aie pas honte, je suis le seul qui te juge en ce moment)"; Types: full compact custom; Flags: fixed
 //extra low//
-Name: "TonPC/exlow"; Description: "Une plaque en braille. Je veux jouer en 540p à  3fps, je suis aveugle. (mais je déconne pas avec les musiques!)"; Types: custom; Flags: exclusive
+Name: "TonPC/exlow"; Description: "Une plaque en braille. Je veux jouer en 540p ï¿½ 3fps, je suis aveugle. (mais je dï¿½conne pas avec les musiques!)"; Types: custom; Flags: exclusive
 //minimal//
-Name: "TonPC/Minimal"; Description: "Un minitel. ''Experience de merde, experience quand même'', j'ai appris ça à  la scatinière! "; Types: custom; Flags: exclusive
+Name: "TonPC/Minimal"; Description: "Un minitel. ''Experience de merde, experience quand mï¿½me'', j'ai appris ï¿½a ï¿½ la scatiniï¿½re! "; Types: custom; Flags: exclusive
 //recomandÃ©//
 Name: "TonPC/Recommande"; Description: "Le minimum requis, pourquoi ma vie est-elle si fade?"; Types: custom; Flags: exclusive
-Name: "TonPC/Recommande/reso"; Description: "Ta résolution d'écran:"; Types: full compact custom; 
-Name: "TonPC/Recommande/reso/1008p"; Description: "1008p (Et non c'est pas une erreur, et ça sera plus beau que le 1080p natif)"; Types: custom; Flags: exclusive
+Name: "TonPC/Recommande/reso"; Description: "Ta rï¿½solution d'ï¿½cran:"; Types: full compact custom; 
+Name: "TonPC/Recommande/reso/1008p"; Description: "1008p (Et non c'est pas une erreur, et ï¿½a sera plus beau que le 1080p natif)"; Types: custom; Flags: exclusive
 Name: "TonPC/Recommande/reso/2k"; Description: "2k"; Types: custom; Flags: exclusive
 Name: "TonPC/Recommande/reso/4k"; Description: "4k"; Types: custom; Flags: exclusive
 //optimal//
 Name: "TonPC/Optimal"; Description: "Le Rocco Siffredi des PC, les daronnes se cachent quand elles le voient"; Types: custom; Flags: exclusive
-Name: "TonPC/Optimal/reso"; Description: "Ta résolution d'écran:"; Types: full compact custom; 
+Name: "TonPC/Optimal/reso"; Description: "Ta rï¿½solution d'ï¿½cran:"; Types: full compact custom; 
 Name: "TonPC/Optimal/reso/1008p"; Description: "1008p (toujours pas une erreur, faut suivre Boby)"; Types: custom; Flags: exclusive
 Name: "TonPC/Optimal/reso/2k"; Description: "2k"; Types: custom; Flags: exclusive
 Name: "TonPC/Optimal/reso/4k"; Description: "4k"; Types: custom; Flags: exclusive
 
 //CONFORT//
 Name: "confort"; Description: "Pour ton petit confort d'occidental"; Types: full compact custom; Flags: fixed
-Name: "confort/UI"; Description: "Ton style d'interface utilisateur préféré"; Types: full compact custom; Flags: fixed
+Name: "confort/UI"; Description: "Ton style d'interface utilisateur prï¿½fï¿½rï¿½"; Types: full compact custom; Flags: fixed
 Name: "confort/UI/switch"; Description: "Nintendo Switch"; Types: custom; Flags: exclusive
 Name: "confort/UI/sony"; Description: "Sony Playstation"; Types: custom; Flags: exclusive
 Name: "confort/UI/xbox"; Description: "Microsoft Xboite"; Types: custom; Flags: exclusive
-Name: "confort/mouse"; Description: "Sensibilité de caméra augmentée"; 
-Name: "confort/noDOF"; Description: "Désactivation du flou de ciblage"; 
+Name: "confort/mouse"; Description: "Sensibilitï¿½ de camï¿½ra augmentï¿½e"; 
+Name: "confort/noDOF"; Description: "Dï¿½sactivation du flou de ciblage"; 
 
 //CHEATS//
 Name: "cheats"; Description: "Les cheats de fillettes"; Types: full compact custom; Flags: fixed
-Name: "cheats/amiibos"; Description: "Amiibos illimités et table de loot 100% (parce que même sans ça c'est aussi chiant pour les vrais hommes...)"; Types: full compact custom;
+Name: "cheats/amiibos"; Description: "Amiibos illimitï¿½s et table de loot 100% (parce que mï¿½me sans ï¿½a c'est aussi chiant pour les vrais hommes...)"; Types: full compact custom;
 
 //SYSTEM//
-Name: "system"; Description: "Fichiers système"; Types: full compact custom; Flags: fixed
-Name: "system/shader"; Description: "Pack de 30k Shader cache (mets à jour tes drivers graphique!!!)"; Types: full compact custom
+Name: "system"; Description: "Fichiers systï¿½me"; Types: full compact custom; Flags: fixed
+Name: "system/shader"; Description: "Pack de 30k Shader cache (mets ï¿½jour tes drivers graphique!!!)"; Types: full compact custom
 Name: "system/yuzu"; Description: "Yuzu...accessoirement"; Types: full compact custom; Flags: fixed
 
 [Files]
 //MODS FPS//
-Source: "S:\SANDBOX\Github\Code-Bobykit\framerate\30fps\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "Framerate/30fps"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\framerate\60fps\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "Framerate/60fps"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\framerate\30fps\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "Framerate/30fps"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\framerate\60fps\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "Framerate/60fps"; Flags: recursesubdirs
 
 //CONF//
 //extra low//
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\extralow\x1\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/exlow"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\extralow\mods\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "TonPC/exlow"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\extralow\x1\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/exlow"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\extralow\mods\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "TonPC/exlow"; Flags: recursesubdirs
 //minimal//
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\low\x1\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Minimal"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\low\mods\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "TonPC/Minimal"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\low\x1\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Minimal"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\low\mods\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "TonPC/Minimal"; Flags: recursesubdirs
 //recommandÃ©//
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\medium\1008p\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Recommande/reso/1008p"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\medium\2k\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Recommande/reso/2k"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\medium\4k\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Recommande/reso/4k"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\medium\mods\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "TonPC/Recommande"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\medium\1008p\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Recommande/reso/1008p"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\medium\2k\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Recommande/reso/2k"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\medium\4k\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Recommande/reso/4k"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\medium\mods\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "TonPC/Recommande"; Flags: recursesubdirs
 //optimal//
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\high\1008p\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Optimal/reso/1008p"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\high\2k\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Optimal/reso/2k"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\high\4k\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Optimal/reso/4k"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\level\high\mods\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "TonPC/Optimal"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\high\1008p\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Optimal/reso/1008p"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\high\2k\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Optimal/reso/2k"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\high\4k\0100F2C0115B6000.ini"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\config\custom"; Components: "TonPC/Optimal/reso/4k"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\level\high\mods\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "TonPC/Optimal"; Flags: recursesubdirs
 //CONFORT//
-Source: "S:\SANDBOX\Github\Code-Bobykit\confort\NintendoUI\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "confort/UI/switch"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\confort\SonyUI\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "confort/UI/sony"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\confort\XboxUI\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "confort/UI/xbox"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\confort\Camera sens\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "confort/mouse"; Flags: recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\confort\disable target dof\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "confort/noDOF"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\confort\NintendoUI\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "confort/UI/switch"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\confort\SonyUI\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "confort/UI/sony"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\confort\XboxUI\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "confort/UI/xbox"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\confort\Camera sens\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "confort/mouse"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\confort\disable target dof\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "confort/noDOF"; Flags: recursesubdirs
 //CHEATS//
-Source: "S:\SANDBOX\Github\Code-Bobykit\Cheats\Amiibos\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "cheats/amiibos"; Flags: recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\Cheats\Amiibos\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\load\0100F2C0115B6000"; Components: "cheats/amiibos"; Flags: recursesubdirs
 //SYSTEM//
-Source: "S:\SANDBOX\Github\Code-Bobykit\ICON\icon64.ico"; DestDir: "{app}\yuzu-windows-msvc-early-access"; Flags: onlyifdoesntexist
-Source: "S:\SANDBOX\Github\Code-Bobykit\Yuzu\*.*"; DestDir: "{app}\"; Components: "system/yuzu"; Flags: onlyifdoesntexist recursesubdirs
-Source: "S:\SANDBOX\Github\Code-Bobykit\shader\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\shader\0100f2c0115b6000"; Components: "system/shader"; Flags: onlyifdoesntexist recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\ICON\icon64.ico"; DestDir: "{app}\yuzu-windows-msvc-early-access"; Flags: onlyifdoesntexist
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\Yuzu\*.*"; DestDir: "{app}\"; Components: "system/yuzu"; Flags: onlyifdoesntexist recursesubdirs
+Source: "C:\Users\Corentin\Documents\00000SIO\Code-Bobykit\shader\*.*"; DestDir: "{app}\yuzu-windows-msvc-early-access\user\shader\0100f2c0115b6000"; Components: "system/shader"; Flags: onlyifdoesntexist recursesubdirs
 
 [Icons]
 Name: "{userdesktop}\Bobykit YUZU"; Filename: "{app}\yuzu-windows-msvc-early-access\yuzu.exe"; WorkingDir: "{app}\yuzu-windows-msvc-early-access"; IconFilename: "{app}\yuzu-windows-msvc-early-access\icon64.ico"
@@ -155,7 +155,7 @@ begin
   Button2.Top := WizardForm.NextButton.Top;
   Button2.Width := WizardForm.NextButton.Width;
   Button2.Height := WizardForm.NextButton.Height;
-  Button2.Caption := 'Chaîne YT';
+  Button2.Caption := 'Chaï¿½ne YT';
   Button2.OnClick := @Button2Click;
 
 
