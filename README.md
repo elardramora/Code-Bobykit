@@ -15,4 +15,4 @@ Version du Bobyinstalleur **v1.93.112.3621
  
  ***3621*** = la version de l'EA présente dans le pack
  
-
+- [ ] Vérifier la compatibilité de tous les mods
