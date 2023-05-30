@@ -1,3 +1,5 @@
+Coucou
+
 [Setup]
 AppName=Bobykit de survie YUZU
 AppVersion=1.93.112.3621
