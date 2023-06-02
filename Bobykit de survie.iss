@@ -7,6 +7,7 @@ DiskSpanning=yes
 DisableProgramGroupPage=yes
 WizardImageFile=S:\SANDBOX\Github\Code-Bobykit\GRAPHICS\rec4.bmp
 WizardSmallImageFile=S:\SANDBOX\Github\Code-Bobykit\GRAPHICS\rec3.bmp
+SetupIconFile=S:\SANDBOX\Github\Code-Bobykit\ICON\icon64.ico
 OutputBaseFilename=Bobykit de survie YUZU
 DisableWelcomePage=no
 
