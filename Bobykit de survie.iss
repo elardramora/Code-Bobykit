@@ -1,6 +1,7 @@
 [Setup]
 AppName=Bobykit de survie YUZU
 AppVersion=1.95.112.3630
+AppVerName=Bobykit de survie YUZU v1.95.112.3630
 DefaultDirName={localappdata}\Bobykit YUZU
 SourceDir=S:\SANDBOX\Github\Code-Bobykit\
 DiskSpanning=yes
@@ -110,6 +111,7 @@ var
 begin
   ShellExec('open', Url, '', '', SW_SHOWNORMAL, ewNoWait, ErrorCode);
 end;
+
 procedure ButtonClick(Sender: TObject);
 begin
   OpenBrowser('https://bobywiki.fr/Totk-FAQ');
@@ -158,13 +160,12 @@ begin
   Button2.Height := WizardForm.NextButton.Height;
   Button2.Caption := 'Chaîne YT';
   Button2.OnClick := @Button2Click;
-
-
 end;
 
 procedure CurStepChanged(CurStep: TSetupStep);
 var
   FilesToDelete: string;
+
 begin
   if CurStep = ssInstall then
   begin
@@ -255,3 +256,26 @@ begin
   end;
 end;
 
+function NextButtonClick(CurPageID: Integer): Boolean;
+var
+  ResultCode: Integer;
+  Path, Msg: string;
+begin
+  if CurPageID = wpFinished then
+  begin
+    if MsgBox('Lancer le Bobykit maintenant ?', mbConfirmation, MB_YESNO) = IDYES then
+      begin
+        Path := ExpandConstant('{app}\yuzu-windows-msvc-early-access\yuzu.exe');
+        if ExecAsOriginalUser(Path, '', '', SW_SHOW, ewNoWait, ResultCode) then
+        begin
+          Log('Executed MyProg');
+        end
+          else
+        begin
+          Msg := 'Error executing MyProg - ' + SysErrorMessage(ResultCode);
+          MsgBox(Msg, mbError, MB_OK);
+        end;
+      end;
+  end;
+  Result := True;
+end;
