@@ -18,16 +18,18 @@ Version du Bobyinstalleur **v1.93.112.3622**
  
  ***3621*** = la version de l'EA présente dans le pack
  
- ## Tâches à réaliser
- *Dans ce Bobykit ou dans une autre update*  
+ ## Tâches à réaliser dans le kit initial
  
 - [x] Passer un temps incalculable à tester et coder, mais ne pas faire de vidéo ni jouer...
 - [x] Vérifier la compatibilité de tous les mods
 - [x] Afficher l'icone du bobykit sur l'installeur (au lieu de celui par défaut d'Inno setup)
-- [ ] Afficher la version du bobykit sur lors de l'installation
 - [x] Créer une option de lancement du bobykit en fin d'installation
 - [ ] Vérifier que les bobykit antérieur ne puisse pas s'installer (via le tag de la version du script)
-- [ ] Vérifier que le driver auto proswitch est activé *(que se passe-t-il s'il l'est alors qu'on est en Xinput classique?) 
+- [ ] ~~Afficher la version du bobykit lors de l'installation~~
+- [ ] ~~Vérifier que le driver auto proswitch est activé *(que se passe-t-il s'il l'est alors qu'on est en Xinput classique?)~~
+- [ ] ~~Purger les shader cache (personnels) quand l'user décide de ne plus utiliser les shader cache du pack~~
+
+ ## Futur update du bobykit
+
 - [ ] Intégrer les presets pour l'usage **clavier/souris
 - [ ] Intégrer les mods pour les ratio extra wide
-- [ ] Purger les shader cache (personnels) quand l'user décide de ne plus utiliser les shader cache du pack
