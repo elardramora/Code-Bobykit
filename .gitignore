@@ -3,3 +3,6 @@
 /shader/
 /00-UPDATED-MODS/
 
+shader/opengl.bin
+shader/vulkan.bin
+shader/vulkan_pipelines.bin
